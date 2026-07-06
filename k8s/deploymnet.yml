@@ -15,4 +15,4 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: shaikmustafa/paytm:bus
+        image: shaikmustafa/paytm:movie
