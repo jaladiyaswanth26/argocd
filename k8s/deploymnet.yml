@@ -8,9 +8,9 @@ spec:
   selector:
     matchLabels:
       app: nginx
-  nodeSelector:
-      node: worker1
   template:
+    nodeSelector:
+      node: worker1
     metadata:
       labels:
         app: nginx
