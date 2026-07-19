@@ -8,6 +8,8 @@ spec:
   selector:
     matchLabels:
       app: nginx
+  nodeSelector:
+      node: worker1
   template:
     metadata:
       labels:
