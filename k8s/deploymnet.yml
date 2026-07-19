@@ -20,7 +20,8 @@ spec:
               - matchExpression:
                  - key: node
                    operator: In
-                   value: worker2
+                   value:
+                     - worker2
       containers:
       - name: nginx
         image: shaikmustafa/paytm:bus
