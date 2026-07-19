@@ -9,12 +9,12 @@ spec:
     matchLabels:
       app: nginx
   template:
-    nodeSelector:
-      node: worker1
     metadata:
       labels:
         app: nginx
     spec:
+      nodeSelector:
+        node: worker1
       containers:
       - name: nginx
         image: shaikmustafa/paytm:bus
